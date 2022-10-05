@@ -50,7 +50,7 @@ body
 
 #clickerTitle
 {
-    margin: 70px;
+    margin: 10px;
     text-align: center;
     color: #8bf18b;
     font-weight: bold;
@@ -59,12 +59,16 @@ body
 
 #total-dino-amount
 {
-    margin: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
     text-align: center;
     color: #8bf18b;
     font-weight: bold;
     font-size: 35px;
 }
+
+
 
 #Dinoimg
 {
