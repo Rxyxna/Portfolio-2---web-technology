@@ -1,1 +1,78 @@
+#Dinoimg
+{
+    width: 250px;
+    margin: -50px;
+    padding: 50px;
+}
+
+img
+{
+    padding: 50px;
+}
+
+
+#dinoimg
+{
+    cursor: pointer;
+}
+
+
+#img-wrapper
+{
+    text-align: center;
+    padding: 50px;
+}
+
+#clicker
+{
+    margin: 50px;
+    text-align: center;
+    color: #8bf18b;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+body
+{
+    background-color: lightpink;
+}
+
+
+#dinoTitle
+{
+    margin: 70px;
+    text-align: center;
+    color: #8bf18b;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#clickerTitle
+{
+    margin: 70px;
+    text-align: center;
+    color: #8bf18b;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#total-dino-amount
+{
+    margin: 70px;
+    text-align: center;
+    color: #8bf18b;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#Dinoimg
+{
+    cursor: pointer;
+}
+
+#Dinoimg:active
+{
+    transform: scale(.92);
+}
 
