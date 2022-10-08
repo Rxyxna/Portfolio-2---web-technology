@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    <title>COOKIE CLICKER</title>
+    <title>DINO CLICKER</title>
 
 </head>
 <body>
@@ -17,10 +18,17 @@
         <img id="Dinoimg" src="Skærmbillede%202022-09-29%20kl.%2008.49.18.png" alt="Dino Clicker">
     </div>
 
-
     <!--Clicker-->
     <p id="clickerTitle"> DINO CLICK COUNT </p>
-<p> <span id="total-dino-amount"> 0</span>  </p>
+    <p> <span id="total-dino-amount"> 0</span> </p>
+
+    <!--Play and Pause buttons and text-->
+    <div> <p id ="audioTitle"> Dino Tunes 🎧</p> </div>
+   <div> <p> <button id="playButton" onclick="playAudio()"> Play Audio ▶ </button> </p> </div>
+    <div> <p> <button id="stopButton" onclick="stopAudio()"> Stop Audio ◼ </button> </p> </div>
+
+    <!--Audio-->
+    <audio id="funkAudio" src="chill-funk-theme-10548.mp3"></audio>
 
 <script src= "main.js"></script>
 </body>
